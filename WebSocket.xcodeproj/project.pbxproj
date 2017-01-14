@@ -10,6 +10,15 @@
 		CB2D93B71E26765C007AAF2D /* WebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2D93AD1E26765C007AAF2D /* WebSocket.framework */; };
 		CB2D93BC1E26765C007AAF2D /* WebSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D93BB1E26765C007AAF2D /* WebSocketTests.m */; };
 		CB2D93BE1E26765C007AAF2D /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2D93B01E26765C007AAF2D /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB859F5E1E290AA500ABDA0F /* cuEnc64.c in Sources */ = {isa = PBXBuildFile; fileRef = CB859F531E290AA500ABDA0F /* cuEnc64.c */; };
+		CB859F5F1E290AA500ABDA0F /* cuEnc64.h in Headers */ = {isa = PBXBuildFile; fileRef = CB859F541E290AA500ABDA0F /* cuEnc64.h */; };
+		CB859F611E290AA500ABDA0F /* WebSocketCore.c in Sources */ = {isa = PBXBuildFile; fileRef = CB859F561E290AA500ABDA0F /* WebSocketCore.c */; };
+		CB859F621E290AA500ABDA0F /* WebSocketCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CB859F571E290AA500ABDA0F /* WebSocketCore.h */; };
+		CB859F631E290AA500ABDA0F /* WebSocketClient.c in Sources */ = {isa = PBXBuildFile; fileRef = CB859F581E290AA500ABDA0F /* WebSocketClient.c */; };
+		CB859F641E290AA500ABDA0F /* WebSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CB859F591E290AA500ABDA0F /* WebSocketClient.h */; };
+		CB859F651E290AA500ABDA0F /* WebSocketFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = CB859F5A1E290AA500ABDA0F /* WebSocketFrame.c */; };
+		CB859F661E290AA500ABDA0F /* WebSocketFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = CB859F5B1E290AA500ABDA0F /* WebSocketFrame.h */; };
+		CB859F671E290AA500ABDA0F /* WebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CB859F5C1E290AA500ABDA0F /* WebSocketTypes.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		CB2D93B61E26765C007AAF2D /* WebSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2D93BB1E26765C007AAF2D /* WebSocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketTests.m; sourceTree = "<group>"; };
 		CB2D93BD1E26765C007AAF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB859F531E290AA500ABDA0F /* cuEnc64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cuEnc64.c; sourceTree = "<group>"; };
+		CB859F541E290AA500ABDA0F /* cuEnc64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cuEnc64.h; sourceTree = "<group>"; };
+		CB859F561E290AA500ABDA0F /* WebSocketCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WebSocketCore.c; sourceTree = "<group>"; };
+		CB859F571E290AA500ABDA0F /* WebSocketCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketCore.h; sourceTree = "<group>"; };
+		CB859F581E290AA500ABDA0F /* WebSocketClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WebSocketClient.c; sourceTree = "<group>"; };
+		CB859F591E290AA500ABDA0F /* WebSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketClient.h; sourceTree = "<group>"; };
+		CB859F5A1E290AA500ABDA0F /* WebSocketFrame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WebSocketFrame.c; sourceTree = "<group>"; };
+		CB859F5B1E290AA500ABDA0F /* WebSocketFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketFrame.h; sourceTree = "<group>"; };
+		CB859F5C1E290AA500ABDA0F /* WebSocketTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,15 @@
 		CB2D93AF1E26765C007AAF2D /* WebSocket */ = {
 			isa = PBXGroup;
 			children = (
+				CB859F531E290AA500ABDA0F /* cuEnc64.c */,
+				CB859F541E290AA500ABDA0F /* cuEnc64.h */,
+				CB859F561E290AA500ABDA0F /* WebSocketCore.c */,
+				CB859F571E290AA500ABDA0F /* WebSocketCore.h */,
+				CB859F581E290AA500ABDA0F /* WebSocketClient.c */,
+				CB859F591E290AA500ABDA0F /* WebSocketClient.h */,
+				CB859F5A1E290AA500ABDA0F /* WebSocketFrame.c */,
+				CB859F5B1E290AA500ABDA0F /* WebSocketFrame.h */,
+				CB859F5C1E290AA500ABDA0F /* WebSocketTypes.h */,
 				CB2D93B01E26765C007AAF2D /* WebSocket.h */,
 				CB2D93B11E26765C007AAF2D /* Info.plist */,
 			);
@@ -93,7 +120,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB859F661E290AA500ABDA0F /* WebSocketFrame.h in Headers */,
+				CB859F641E290AA500ABDA0F /* WebSocketClient.h in Headers */,
+				CB859F621E290AA500ABDA0F /* WebSocketCore.h in Headers */,
+				CB859F5F1E290AA500ABDA0F /* cuEnc64.h in Headers */,
 				CB2D93BE1E26765C007AAF2D /* WebSocket.h in Headers */,
+				CB859F671E290AA500ABDA0F /* WebSocketTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB859F631E290AA500ABDA0F /* WebSocketClient.c in Sources */,
+				CB859F651E290AA500ABDA0F /* WebSocketFrame.c in Sources */,
+				CB859F5E1E290AA500ABDA0F /* cuEnc64.c in Sources */,
+				CB859F611E290AA500ABDA0F /* WebSocketCore.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +422,7 @@
 				CB2D93C31E26765C007AAF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB2D93C41E26765C007AAF2D /* Build configuration list for PBXNativeTarget "WebSocketTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +431,7 @@
 				CB2D93C61E26765C007AAF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

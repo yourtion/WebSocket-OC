@@ -15,5 +15,18 @@ FOUNDATION_EXPORT double WebSocketVersionNumber;
 FOUNDATION_EXPORT const unsigned char WebSocketVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <WebSocket/PublicHeader.h>
+#define kWebSocketDefaultPort        80
+#define kWebSocketDefaultSecurePort 443
 
+#define kWebSocketScheme       "ws"
+#define kWebSocketSecureScheme "wss"
+
+#include <CoreFoundation/CoreFoundation.h>
+
+#include "WebSocketTypes.h"
+#include "WebSocketCore.h"
+#include "WebSocketClient.h"
+#include "cuEnc64.h"
+
+#endif
 
